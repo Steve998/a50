@@ -1,6 +1,6 @@
 class AnythingController < ApplicationController
 
-  def root
+  def index
     #Section 1.1
     # Section 1.1.1 find Find the client record with :id=2
     client = Client.find(2)
